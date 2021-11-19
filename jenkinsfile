@@ -4,7 +4,8 @@ pipeline{
 
   environment {
 
-        PASS = credentials('docker_pass') 
+        PASS = credentials('docker_pass')
+} 
 
 stages {
 
